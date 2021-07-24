@@ -1,0 +1,29 @@
+.card{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+.card:hover{
+    opacity: 0.7;
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.cardImage{
+    border-radius: 10px;
+    background-color: azure;
+   
+}
+
+ 
+@media(max-width: 560px){
+    .cardImage{
+        width: 90%;
+        height: auto;
+    }
+}

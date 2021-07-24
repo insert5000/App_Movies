@@ -1,0 +1,46 @@
+.detailsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    max-width: 400px;
+    width: 100%;
+    margin: 15px;
+    height: auto;
+}
+
+
+.movieImage{
+    border-radius: 10px;
+    width: 90%;
+   
+}
+
+.movieDetails{
+    font-size: 1.5rem;
+}
+
+.firstItem{
+    margin-top: 0;
+}
+
+.containerUpgrade{
+    width: auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: 'center';
+    position: absolute;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 10px;
+
+}
+.Screen2{
+    width: 100%;
+    background: linear-gradient(to top, black , rgba(255, 254, 254, 0));
+    height: 800px;
+}

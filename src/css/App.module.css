@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 255, 221);
+    text-shadow:
+        0 0 7px rgb(0, 255, 221),
+        0 0 10px rgb(0, 255, 221),
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 151px rgb(0, 255, 221);
+}
